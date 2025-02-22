@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopwithismah</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #faf7f2;
+            color: #3c2915;
+        }
+
+        header {
+            background-color: #8b7355;
+            color: #faf7f2;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .brand-name {
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: 3px;
+        }
+
+        .tagline {
+            font-style: italic;
+            margin-top: 0.5rem;
+        }
+
+        nav {
+            background-color: #faf7f2;
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 1px solid #d4c5b9;
+        }
+
+        nav a {
+            color: #8b7355;
+            text-decoration: none;
+            margin: 0 2rem;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .hero {
+            padding: 4rem 2rem;
+            text-align: center;
+            background-color: #f5efe6;
+        }
+
+        .quote-section {
+            text-align: center;
+            padding: 3rem 1rem;
+            background-color: #8b7355;
+            color: #faf7f2;
+            margin: 2rem 0;
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 2rem auto;
+            line-height: 1.8;
+        }
+
+        .social-links {
+            padding: 2rem;
+            text-align: center;
+            background-color: #f5efe6;
+        }
+
+        .social-links a {
+            color: #8b7355;
+            font-size: 1.5rem;
+            margin: 0 1rem;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #6b583e;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 3rem;
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product-card {
+            background: white;
+            padding: 1.5rem;
+            text-align: center;
+            border-radius: 4px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .product-image {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            margin-bottom: 1.5rem;
+            border-radius: 4px;
+        }
+
+        .price {
+            color: #8b7355;
+            font-size: 1.1rem;
+            margin: 1rem 0;
+        }
+
+        .btn {
+            background-color: #8b7355;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 2px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #6b583e;
+        }
+
+        footer {
+            background-color: #f5efe6;
+            color: #8b7355;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+            font-size: 0.9rem;
+        }
+
+        .daily-inspiration {
+            text-align: center;
+            padding: 2rem;
+            background-color: #fff;
+            margin: 2rem auto;
+            max-width: 800px;
+            border-radius: 4px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .daily-inspiration h3 {
+            color: #8b7355;
+            font-weight: normal;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="brand-name">shopwithismah</h1>
+        <p class="tagline">your daily dose of beauty & wellness</p>
+    </header>
+
+    <nav>
+        <a href="#skincare">Skincare</a>
+        <a href="#wellness">Wellness</a>
+        <a href="#beauty">Beauty</a>
+        <a href="#fashion">Fashion</a>
+    </nav>
+
+    <div class="hero">
+        <h2>welcome to your self-care journey</h2>
+        <p>carefully curated products for your beautiful soul</p>
+    </div>
+
+    <div class="daily-inspiration">
+        <h3>✨ daily reminder ✨</h3>
+        <p>"You are beautiful just the way you are, but a little self-care never hurt nobody!"</p>
+    </div>
+
+    <div class="quote-section">
+        <div class="quote">"Taking care of yourself is not vanity, it's self-love."</div>
+        <div class="quote">"Invest in your skin, it's going to represent you for a very long time."</div>
+        <div class="quote">"Beauty begins the moment you decide to be yourself."</div>
+    </div>
+
+    <div class="products">
+        <div class="product-card">
+            <img src="/api/placeholder/250/250" alt="Vitamin C Serum" class="product-image">
+            <h3>Glow Boost Serum</h3>
+            <p>Your daily dose of radiance</p>
+            <p class="price">$38.00</p>
+            <button class="btn">Shop Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="/api/placeholder/250/250" alt="Silk Pillowcase" class="product-image">
+            <h3>Beauty Sleep Pillowcase</h3>
+            <p>Wake up beautiful</p>
+            <p class="price">$45.00</p>
+            <button class="btn">Shop Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="/api/placeholder/250/250" alt="Wellness Tea" class="product-image">
+            <h3>Inner Glow Tea</h3>
+            <p>Beauty from within</p>
+            <p class="price">$24.00</p>
+            <button class="btn">Shop Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="/api/placeholder/250/250" alt="Face Roller" class="product-image">
+            <h3>Rose Quartz Roller</h3>
+            <p>Your daily self-love ritual</p>
+            <p class="price">$32.00</p>
+            <button class="btn">Shop Now</button>
+        </div>
+    </div>
+
+    <div class="social-links">
+        <h3>Let's Connect!</h3>
+        <a href="#instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#tiktok"><i class="fab fa-tiktok"></i></a>
+        <a href="#pinterest"><i class="fab fa-pinterest"></i></a>
+        <a href="#youtube"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <footer>
+        <p>© 2025 shopwithismah • spreading beauty & joy</p>
+        <p>This site contains affiliate links. We may earn a commission for purchases made through these links.</p>
+    </footer>
+</body>
+</html>
